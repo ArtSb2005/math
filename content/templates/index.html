@@ -60,7 +60,7 @@
                     <div class="slider__line">
                         {% for cert in object_list %}
                             <div class="slider__item">
-                                <img src="http://127.0.0.1:8000/media/{{ cert.file }}" alt="Сертификат">
+                                <img src="http://127.0.0.1:8000/media/{{ cert.file_cert }}" alt="{{ cert.title_cert }}">
                             </div>
                         {% endfor %}
                     </div>

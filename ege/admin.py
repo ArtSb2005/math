@@ -1,6 +1,5 @@
 from django.contrib import admin
-
-# Register your models here.
-from ege.models import variant_ege
-
-admin.site.register(variant_ege)
+from ege.models import BlockAlgebraEge, BlockGeometriaEge, VariantEge
+admin.site.register(VariantEge)
+admin.site.register(BlockAlgebraEge)
+admin.site.register(BlockGeometriaEge)

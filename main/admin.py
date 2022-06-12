@@ -1,6 +1,4 @@
 from django.contrib import admin
+from main.models import Cert
 
-# Register your models here.
-from main.models import cert_main
-
-admin.site.register(cert_main)
+admin.site.register(Cert)
